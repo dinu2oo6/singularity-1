@@ -1,0 +1,240 @@
+{
+  "identity": {
+    "name": "Singularity",
+    "persona": "E1 - The Anti-AI Designer",
+    "tone": "Futuristic, Precision, High-Frequency, Premium",
+    "app_type": "React Native Expo (Mobile)",
+    "theme": "dark"
+  },
+  "typography": {
+    "font_family": {
+      "heading": "SpaceGrotesk",
+      "body": "System",
+      "mono": "SpaceMono"
+    },
+    "scale": {
+      "xs": 12,
+      "sm": 14,
+      "base": 16,
+      "lg": 18,
+      "xl": 20,
+      "2xl": 24,
+      "3xl": 30,
+      "4xl": 36,
+      "5xl": 48
+    },
+    "weights": {
+      "regular": "400",
+      "medium": "500",
+      "semibold": "600",
+      "bold": "700"
+    },
+    "letter_spacing": {
+      "tighter": -0.8,
+      "tight": -0.4,
+      "normal": 0,
+      "wide": 0.4,
+      "widest": 1.2
+    }
+  },
+  "colors": {
+    "background": {
+      "default": "#0A0E17",
+      "subtle": "#121826",
+      "overlay": "rgba(10, 14, 23, 0.8)",
+      "glass": "rgba(18, 24, 38, 0.6)"
+    },
+    "primary": {
+      "default": "#00FF9D",
+      "hover": "#00CC7D",
+      "foreground": "#000000",
+      "glow": "rgba(0, 255, 157, 0.5)"
+    },
+    "secondary": {
+      "default": "#7000FF",
+      "hover": "#5A00CC",
+      "foreground": "#FFFFFF",
+      "glow": "rgba(112, 0, 255, 0.5)"
+    },
+    "accent": {
+      "cyan": "#00F0FF",
+      "pink": "#FF00FF",
+      "orange": "#FF5F00"
+    },
+    "status": {
+      "success": "#00FF9D",
+      "error": "#FF3B30",
+      "warning": "#FFB340",
+      "info": "#00F0FF"
+    },
+    "text": {
+      "primary": "#F8FAFC",
+      "secondary": "#94A3B8",
+      "muted": "#64748B",
+      "inverted": "#0A0E17"
+    },
+    "border": {
+      "default": "#1E293B",
+      "subtle": "#2D3B4E",
+      "active": "#00FF9D"
+    }
+  },
+  "spacing": {
+    "xs": 4,
+    "sm": 8,
+    "md": 16,
+    "lg": 24,
+    "xl": 32,
+    "2xl": 40,
+    "3xl": 48,
+    "section": 64
+  },
+  "border_radius": {
+    "sm": 8,
+    "md": 12,
+    "lg": 16,
+    "xl": 24,
+    "full": 9999
+  },
+  "shadows": {
+    "sm": {
+      "shadowColor": "#000",
+      "shadowOffset": { "width": 0, "height": 2 },
+      "shadowOpacity": 0.1,
+      "shadowRadius": 4,
+      "elevation": 2
+    },
+    "md": {
+      "shadowColor": "#000",
+      "shadowOffset": { "width": 0, "height": 4 },
+      "shadowOpacity": 0.15,
+      "shadowRadius": 8,
+      "elevation": 4
+    },
+    "neon_primary": {
+      "shadowColor": "#00FF9D",
+      "shadowOffset": { "width": 0, "height": 0 },
+      "shadowOpacity": 0.4,
+      "shadowRadius": 12,
+      "elevation": 6
+    },
+    "neon_secondary": {
+      "shadowColor": "#7000FF",
+      "shadowOffset": { "width": 0, "height": 0 },
+      "shadowOpacity": 0.4,
+      "shadowRadius": 12,
+      "elevation": 6
+    }
+  },
+  "layout": {
+    "container": {
+      "flex": 1,
+      "backgroundColor": "#0A0E17"
+    },
+    "safe_area": {
+      "flex": 1,
+      "backgroundColor": "#0A0E17"
+    },
+    "padding_horizontal": 20
+  },
+  "components": {
+    "Button": {
+      "base": {
+        "height": 56,
+        "borderRadius": 28,
+        "justifyContent": "center",
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": 8
+      },
+      "primary": {
+        "backgroundColor": "#00FF9D"
+      },
+      "secondary": {
+        "backgroundColor": "#1E293B",
+        "borderWidth": 1,
+        "borderColor": "#2D3B4E"
+      },
+      "text_primary": {
+        "color": "#000000",
+        "fontSize": 16,
+        "fontWeight": "600",
+        "fontFamily": "SpaceGrotesk"
+      },
+      "text_secondary": {
+        "color": "#FFFFFF",
+        "fontSize": 16,
+        "fontWeight": "600",
+        "fontFamily": "SpaceGrotesk"
+      }
+    },
+    "Card": {
+      "base": {
+        "backgroundColor": "#121826",
+        "borderRadius": 16,
+        "padding": 20,
+        "borderWidth": 1,
+        "borderColor": "#1E293B"
+      },
+      "glass": {
+        "backgroundColor": "rgba(18, 24, 38, 0.6)",
+        "borderColor": "rgba(255, 255, 255, 0.1)"
+      }
+    },
+    "Input": {
+      "base": {
+        "height": 56,
+        "backgroundColor": "#0F141F",
+        "borderRadius": 12,
+        "paddingHorizontal": 16,
+        "color": "#FFFFFF",
+        "fontSize": 16,
+        "borderWidth": 1,
+        "borderColor": "#1E293B"
+      },
+      "focus": {
+        "borderColor": "#00FF9D",
+        "backgroundColor": "#121826"
+      }
+    }
+  },
+  "assets": {
+    "images": {
+      "splash_bg": "https://images.unsplash.com/photo-1687844599572-5b48b2523b06",
+      "crypto_btc": "https://images.unsplash.com/photo-1732111816779-aeec50f788ba",
+      "abstract_neon": "https://images.unsplash.com/photo-1687844599821-e0eceea6f6a1"
+    },
+    "icons": {
+      "library": "@expo/vector-icons",
+      "families": ["Ionicons", "MaterialCommunityIcons", "Feather"]
+    }
+  },
+  "animations": {
+    "library": "react-native-reanimated",
+    "presets": {
+      "spring": {
+        "damping": 15,
+        "stiffness": 120
+      },
+      "timing": {
+        "duration": 300,
+        "easing": "Easing.out(Easing.exp)"
+      }
+    },
+    "transitions": {
+      "screen": "SlideInRight",
+      "modal": "SlideInUp"
+    }
+  },
+  "universal_guidelines": [
+    "Do not use inline styles. Always use StyleSheet.create().",
+    "Use 'SafeAreaView' from 'react-native-safe-area-context' for screen containers.",
+    "Use 'TouchableOpacity' for interactive elements, not 'Button'.",
+    "Ensure all text has a style object with color defined (defaults are unreliable).",
+    "Use 'Gap' property in Flexbox layout for spacing between items.",
+    "For gradients, use 'expo-linear-gradient'.",
+    "For blur/glass effects, use 'expo-blur' (BlurView).",
+    "Never use 'div' or 'span'. Use 'View' and 'Text'.",
+    "Add 'data-testid' to all TouchableOpacity and TextInput components."
+  ]
+}
